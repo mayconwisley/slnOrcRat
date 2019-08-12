@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="OrcRat.master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="frmMaster" runat="server">
+        <h1>Orçamentos e RAT</h1>
+        <div class="menu">
+            <ul>
+                <li>Cadastro
+                <ul>
+                    <li><a href="#">Empresa</a></li>
+                    <li><a href="#">Departamento</a></li>
+                    <li><a href="#">Cliente</a></li>
+                    <li><a href="#">Modulos</a></li>
+                    <li><a href="#">Imposto</a></li>
+                    <li><a href="#">Valor Hora</a></li>
+                </ul>
+                </li>
+                <li>Orçamentos
+                <ul>
+                    <li><a href="#">Orçamento</a></li>
+                    <li><a href="#">Atividades</a></li>
+                    <li><a href="#">RAT</a></li>
+                </ul>
+                </li>
+                <li>Consulta
+                <ul>
+                    <li><a href="#">Empresa</a></li>
+                    <li><a href="#">Departamento</a></li>
+                    <li><a href="#">Cliente</a></li>
+                    <li><a href="#">Modulos</a></li>
+                    <li><a href="#">Imposto</a></li>
+                    <li><a href="#">Valor Hora</a></li>
+                </ul>
+                </li>
+            </ul>
+
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="cplPrincipal" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
