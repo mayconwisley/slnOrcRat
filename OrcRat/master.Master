@@ -5,13 +5,17 @@
 <html>
 <head runat="server">
     <title></title>
+    <link href="css/Style.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="frmMaster" runat="server">
-        <h1>Orçamentos e RAT</h1>
-        <div class="menu">
+        <header>
+            <h1>O e R</h1>
+        </header>
+
+        <nav class="menu">
             <ul>
                 <li>Cadastro
                 <ul>
@@ -42,8 +46,9 @@
                 </li>
             </ul>
 
-        </div>
-        <div>
+        </nav>
+
+        <div class="conteudo">
             <asp:ContentPlaceHolder ID="cplPrincipal" runat="server">
             </asp:ContentPlaceHolder>
         </div>

@@ -1,3 +1,45 @@
 ﻿* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
 
+header {
+    width: 100%;
+    background: #ffd800;
+}
+
+.menu {
+    width: 19%;
+    float: left;
+    background: #808080;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+    ul li {
+        list-style: none;
+        margin: 5px 10px;
+    }
+
+        ul li ul {
+            border: 1px solid #000;
+        }
+
+            ul li ul li {
+                background: #ff6a00;
+            }
+
+            ul li ul a {
+                text-decoration: none;
+                color:#00c8ff;
+            }
+
+.conteudo {
+    border: 1px solid #000;
+    background: #b6ff00;
+    width: 79%;
+    float: right;
 }
