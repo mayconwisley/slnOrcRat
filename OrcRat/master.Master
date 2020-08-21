@@ -11,13 +11,14 @@
 </head>
 <body>
     <form id="frmMaster" runat="server">
-        <header>
-            <h1>O e R</h1>
-        </header>
+        <div class="principal">
+            <header>
+                <h1>O e R</h1>
+            </header>
 
-        <nav class="menu">
-            <ul>
-                <li>Cadastro
+            <nav class="menu">
+                <ul>
+                    <li>Cadastro
                 <ul>
                     <li><a href="#">Empresa</a></li>
                     <li><a href="#">Departamento</a></li>
@@ -26,15 +27,15 @@
                     <li><a href="#">Imposto</a></li>
                     <li><a href="#">Valor Hora</a></li>
                 </ul>
-                </li>
-                <li>Orçamentos
+                    </li>
+                    <li>Orçamentos
                 <ul>
                     <li><a href="#">Orçamento</a></li>
                     <li><a href="#">Atividades</a></li>
                     <li><a href="#">RAT</a></li>
                 </ul>
-                </li>
-                <li>Consulta
+                    </li>
+                    <li>Consulta
                 <ul>
                     <li><a href="#">Empresa</a></li>
                     <li><a href="#">Departamento</a></li>
@@ -43,14 +44,15 @@
                     <li><a href="#">Imposto</a></li>
                     <li><a href="#">Valor Hora</a></li>
                 </ul>
-                </li>
-            </ul>
+                    </li>
+                </ul>
 
-        </nav>
+            </nav>
 
-        <div class="conteudo">
-            <asp:ContentPlaceHolder ID="cplPrincipal" runat="server">
-            </asp:ContentPlaceHolder>
+            <div class="conteudo">
+                <asp:ContentPlaceHolder ID="cplPrincipal" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
         </div>
     </form>
 </body>
