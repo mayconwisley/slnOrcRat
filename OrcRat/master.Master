@@ -18,6 +18,10 @@
 
             <nav class="menu">
                 <ul>
+                    <li>Inicio
+                
+                    </li>
+
                     <li>Cadastro
                 <ul>
                     <li><a href="#">Empresa</a></li>
